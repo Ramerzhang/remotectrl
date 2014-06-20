@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DHL_yk - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP232.tmp" with contents
+[
+../common/G729a.lib SHLWAPI.LIB nafxcw.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/大灰狼远程管理.pdb" /machine:I386 /nodefaultlib:"MSVCRT.lib ../common/zlib/zlib.lib" /out:"../Bin/大灰狼远程管理.exe" 
+".\Release\AudioCode.obj"
+".\Release\AudioDlg.obj"
+".\Release\BmpToAvi.obj"
+".\Release\Buffer.obj"
+".\Release\BuildServer1.obj"
+".\Release\ChangeGroup.obj"
+".\Release\CpuUsage.obj"
+".\Release\DHL_yk.obj"
+".\Release\Dib.obj"
+".\Release\errlog.obj"
+".\Release\FileManagerDlg.obj"
+".\Release\FileTransferModeDlg.obj"
+".\Release\Filter.obj"
+".\Release\gh0stDoc.obj"
+".\Release\gh0stView.obj"
+".\Release\Icons.obj"
+".\Release\IniFile.obj"
+".\Release\InputDlg.obj"
+".\Release\IOCPServer.obj"
+".\Release\KeyBoardDlg.obj"
+".\Release\LogView.obj"
+".\Release\MainFrm.obj"
+".\Release\MD5.OBJ"
+".\Release\MsgBox.obj"
+".\Release\MyToolsKit.obj"
+".\Release\PcView.obj"
+".\Release\proxy.obj"
+".\Release\RegDataDlg.obj"
+".\Release\RegDlg.obj"
+".\Release\SafeDynMem.obj"
+".\Release\ScreenSpyDlg.obj"
+".\Release\SerAttribDlg.obj"
+".\Release\SerManager.obj"
+".\Release\SettingDlg.obj"
+".\Release\SEU_QQwry.obj"
+".\Release\ShellDlg.obj"
+".\Release\ShowNum.obj"
+".\Release\StdAfx.obj"
+".\Release\SystemDlg.obj"
+".\Release\TrueColorToolBar.obj"
+".\Release\UPDATEIP.obj"
+".\Release\User.obj"
+".\Release\WaveIn.obj"
+".\Release\WaveOut.obj"
+".\Release\WebCamDlg.obj"
+".\Release\DHL_yk.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP232.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+大灰狼远程管理.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

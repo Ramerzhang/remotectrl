@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Server - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP252.tmp" with contents
+[
+/nologo /MD /W4 /GX /Od /I "../common" /D "WIN32" /D "NDEBUG" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP252.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP253.tmp" with contents
+[
+../common/zlib/zlib.lib ../common/G729a.lib Shlwapi.lib MSVCRT.LIB /nologo /subsystem:windows /incremental:no /pdb:"Release/DHL2012.pdb" /map:"Release/DHL2012.map" /machine:I386 /nodefaultlib:"LIBCMT" /out:"../bin/Update/DHL2012.dat" 
+".\Release\AudioCode.obj"
+".\Release\AudioManager.obj"
+".\Release\Buffer.obj"
+".\Release\ClientSocket.obj"
+".\Release\Dialupass.obj"
+".\Release\FileManager.obj"
+".\Release\install.obj"
+".\Release\KernelManager.obj"
+".\Release\KeyboardManager.obj"
+".\Release\Manager.obj"
+".\Release\Myfunction.obj"
+".\Release\RegEditEx.obj"
+".\Release\RegeditOpt.obj"
+".\Release\Registry.obj"
+".\Release\RegManager.obj"
+".\Release\ScreenManager.obj"
+".\Release\ScreenSpy.obj"
+".\Release\SerManager.obj"
+".\Release\Server.obj"
+".\Release\ServerStart.obj"
+".\Release\ShellManager.obj"
+".\Release\StdAfx.obj"
+".\Release\SystemManager.obj"
+".\Release\until.obj"
+".\Release\VideoCap.obj"
+".\Release\VideoManager.obj"
+".\Release\WaveIn.obj"
+".\Release\WaveOut.obj"
+".\Release\Server.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP253.tmp"
+<h3>Output Window</h3>
+Compiling...
+Server.cpp
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\common/login.h(229) : warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(222) : warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(365) : warning C4100: 'FHshanchu' : unreferenced formal parameter
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1182) : warning C4245: 'initializing' : conversion from 'const int' to 'unsigned long', signed/unsigned mismatch
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1323) : warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1387) : warning C4211: nonstandard extension used : redefined extern to static
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1731) : warning C4100: 'argv' : unreferenced formal parameter
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1731) : warning C4100: 'dwargc' : unreferenced formal parameter
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1767) : warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1770) : warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1772) : warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1850) : warning C4100: 'nShowCmd' : unreferenced formal parameter
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1849) : warning C4100: 'lpCmdLine' : unreferenced formal parameter
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1848) : warning C4100: 'hPrevInstance' : unreferenced formal parameter
+E:\hack\免杀\各种源码\大灰狼远控V5.52（2013稳定版）完整源码\Server\Server.cpp(1847) : warning C4100: 'hInstance' : unreferenced formal parameter
+Linking...
+Server.obj : warning LNK4043: invalid /FILEALIGN value 150 (must be power of 2); assumed default
+Server.obj : warning LNK4043: invalid /ALIGN value 150 (must be power of 2); assumed default
+LINK : warning LNK4078: multiple ".data" sections found with different attributes (40000040)
+LINK : warning LNK4078: multiple ".data" sections found with different attributes (60000020)
+
+
+
+<h3>Results</h3>
+DHL2012.dat - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
